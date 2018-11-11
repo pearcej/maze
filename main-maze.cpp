@@ -2,11 +2,11 @@
 Add header with authors names and other lab details 
 */
 
-#include <iostream>
-#include <fstream>
+#include <iostream> // for i/o
+#include <fstream> // for file handling
 #include <vector>
 #include <string>
-#include <stdlib.h>
+#include <stdlib.h> // for the system command
 using namespace std;
 
 class Maze {
@@ -66,7 +66,7 @@ int main() {
 	Maze myMaze;
 	myMaze.readMaze("mazemap2.txt");
 
-	system("cls");
+	system("cls"); // this clears the console, but is not really needed.
 
 	myMaze.printMaze();
 
