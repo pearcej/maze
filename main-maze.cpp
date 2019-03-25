@@ -51,8 +51,8 @@ public:
 	}
 
 	void printMaze() {
-		for (int i = 0; i < mazeVect.size(); i++) {
-			for (int j = 0; j < mazeVect[i].size(); j++) {
+		for (unsigned int i = 0; i < mazeVect.size(); i++) {
+			for (unsigned int j = 0; j < mazeVect[i].size(); j++) {
 				cout << mazeVect[i][j];
 			}
 			cout << endl;
