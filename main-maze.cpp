@@ -6,7 +6,7 @@ Add header with authors names and other lab details
 #include <fstream> // for file handling
 #include <vector>
 #include <string>
-#include <stdlib.h> // for the system command
+#include "stdlib.h" // for the system command
 using namespace std;
 
 class Maze {
